@@ -1,0 +1,21 @@
+.fixed-img {
+    padding: 0 10%;
+    width: 100%; /* Prend 80% de la largeur du conteneur */
+    height: 300px; /* Hauteur automatique pour maintenir les proportions */
+    object-fit :fill;
+    
+
+}
+
+@media (min-width: 768px) and (max-width: 992px) {
+    .fixed-img {
+        padding: 0 5%;
+        min-height: 250px;
+        max-height: 300px;
+    }
+}
+
+.card-title {
+    font-size: medium;
+    font-weight: 400;
+}
